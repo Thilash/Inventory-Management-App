@@ -1,0 +1,7 @@
+<p> All Inventory</p>
+{% for product in all_products %}
+<h3>{{product}}</h3> Id Number:<h3>{{product.id}}</h3><hr>
+{% endfor %}
+<a href="http://localhost:5000/data/create">Add another Item</a>
+<br><br>
+<a href="http://localhost:5000/data/download">Download Inventory (.csv)</a>

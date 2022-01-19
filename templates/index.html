@@ -1,0 +1,26 @@
+<form action="" method="POST">
+<h4>Adding items to Inventory:</h4><p> To add items to the database, just use the form below. </p>
+<h4>Id Numbers: </h4><p> Id numbers are starting from 1 and increment by 1 everytime a new item is added. </p>
+<h4>Viewing single items: </h4><p> To view a certain item, use http://localhost:5000/data/idnumber. For example for item 1, http://localhost:5000/data/1. </p>
+<h4>Updating single items: </h4><p>To update a certain item, use http://localhost:5000/data/idnumber/update. For example for item 1, http://localhost:5000/data/1/update.<p>
+<h4>Deleting single items: </h4><p>To delete a certain item, use http://localhost:5000/data/idnumber/delete. For example for item 1, http://localhost:5000/data/1/delete.<p>
+<h1> Inventory Management </h1>
+    Name <input type="text" name="name" />
+    <br>
+    Description <input type="text" name="description" />
+    <br>
+    Price <input type="floatformat" name="price" />
+    <br>
+    Qty <input type="number" name="qty" />
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <a href="http://localhost:5000/data">All Inventory</a>
+    <br>
+    <br>
+    <a href="http://localhost:5000/data/download">Download Inventory (.csv) </a>
+
+</form>
+
