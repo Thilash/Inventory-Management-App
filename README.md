@@ -12,12 +12,14 @@ Make sure python3 is installed.
 
 create virtual enviroment and enables it and keeps all dependencies in one place.
 Run command:
-**$pip3 install pipenv
-$pipenv shell **
+**$pip3 install pipenv**
+**$pipenv shell **
 
 Need to install the needed dependencies. Can be done all at once.
+The below command creates a "Pipfile" and a "Pipfile.lock" file where you can check if all the dependencies are included.
 Run command:
 **$pipenv install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy**
+
 
 If the program says importError with flask-sqlalchemy you need to select the correct version of python
 **In command palette: Python: Select Interpretar
