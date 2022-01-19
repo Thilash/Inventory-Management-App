@@ -10,17 +10,17 @@ from io import StringIO
 app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
 
-#database
+#database configuration
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'db.sqlite')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-#Init db
+#initialize database
 db = SQLAlchemy(app)
 
-#init marshmallow
+#initalize marshmallow
 ma = Marshmallow(app)
 
-#product class/model
+#Each item structure
 class Product(db.Model):
     id = db.Column(db.Integer, primary_key=True) #auto increments when inserting
     name = db.Column(db.String(100), unique=True)
