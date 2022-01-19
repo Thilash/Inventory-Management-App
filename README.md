@@ -37,7 +37,7 @@ Go to your browser and type http://localhost:5000/data/create and all instructio
 Go to the main page:
 http://localhost:5000/data/create
 
-Fill out the form with item information to be added to the database
+Fill out the form with item information to be added to the database.
 Price and quantity cannot be negative so if a negative value is inserted, it is displayed as positive. 
 
 At any point, click "All Inventory" to view all the items in the database.
