@@ -1,5 +1,3 @@
-# Shopify-Backend-Developer-Intern-Summer-2022-
-Submission for Shopify backend developer intern challenge for summer 2022
 **I used python version 3.9.9**
 
 Instructions on getting the app running:
